@@ -127,7 +127,7 @@ var unansweredTally = 0;
 var clickSound = new Audio("assets/sound/button-click.mp3");
 
 jQuery(function() {
-	jQuery(".jumbotron").snow({
+	jQuery("body").snow({
 		intensity: 40,
 		sizeRange: [12, 30],
 		opacityRange: [0.4, 1],
